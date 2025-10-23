@@ -1,0 +1,21 @@
+@use "./reset";
+@use "./variables" as *;
+
+body {
+  font-family: $main-font;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: -0.03125rem;
+  color: $gray-color;
+}
+
+.title-h1 {
+  color: $black-color;
+  text-align: center;
+  font-family: $main-font;
+  font-size: 3.875rem;
+  font-weight: 500;
+  line-height: 4.375rem;
+  letter-spacing: -0.03125rem;
+}
