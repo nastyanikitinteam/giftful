@@ -1,0 +1,75 @@
+@use "@styles/variables" as *;
+
+.footer {
+  margin-top: auto;
+  background-color: $green-back-color;
+  padding-top: 4.38rem;
+  overflow: hidden;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.left {
+  max-width: 25.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.apps {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.63rem;
+}
+
+.links {
+  display: flex;
+  gap: 5rem;
+
+  h4 {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    letter-spacing: -0.03125rem;
+    color: $gray-color;
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  a {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.125rem;
+    letter-spacing: -0.03125rem;
+    color: $black-third-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $green-color;
+    }
+  }
+}
+
+.bottom {
+  margin-top: 4.25rem;
+}
+
+.logoContainer {
+  margin-bottom: -8.83rem;
+}

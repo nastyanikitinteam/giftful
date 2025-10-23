@@ -1,0 +1,54 @@
+@use "@styles/variables" as *;
+
+.button {
+  border: none;
+  border-radius: 6.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: auto;
+  font-family: $main-font;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  letter-spacing: -0.03125rem;
+}
+
+.transparent {
+  background: transparent;
+  color: $black-third-color;
+
+  &:hover {
+    background: $gray-color;
+  }
+}
+
+.black {
+  background: $black-second-color;
+  color: $white-color;
+
+  &:hover {
+    background: $green-color;
+  }
+}
+
+.green {
+  background: $green-color;
+  color: $white-color;
+
+  &:hover {
+    background: $black-color;
+  }
+}
+
+.large {
+  padding: 0.5rem 2rem;
+  min-height: 3rem;
+}
+
+.small {
+  padding: 0.56rem 1.25rem;
+}
